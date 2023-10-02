@@ -6,6 +6,10 @@
     &:hover {
         color: #fff;
     }
+
+    img {
+        width: 50px;
+    }
 } 
 
 .navbar-brand:hover {
@@ -31,6 +35,7 @@
         .nav-item {
             .nav-link {
                 color: #fff;
+                font-size: 1.2rem;
 
                 &:hover {
                     color: $warning; // $warning değişkeni tanımlıysa kullanabilirsiniz
