@@ -1,23 +1,17 @@
 .navbar-brand {
     color: #fff;
     font-size: 30px;
+    border: none;
 
     &:hover {
         color: #fff;
     }
-}
+} 
 
-.custom-toggler .navbar-toggler-icon {
-    background-color: white; /* Toggler simgesinin arka plan rengi beyaz yapar */
-    border: 1px solid white; /* Toggler simgesinin kenarlık rengini beyaz yapar */
+.navbar-brand:hover {
+    cursor: default;
+    color: #fff;
 }
-
-.custom-toggler .navbar-toggler-icon img {
-    width: 24px; /* Genişliği istediğiniz gibi ayarlayın */
-    height: 24px; /* Yüksekliği istediğiniz gibi ayarlayın */
-    filter: brightness(0) invert(1); /* Simgeyi beyaz yapar */
-}
-
 
 .navbar {
     width: 100%;
