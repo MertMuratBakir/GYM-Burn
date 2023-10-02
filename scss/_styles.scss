@@ -1,24 +1,13 @@
-.top-bar {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-.btn-light {
-    background-color: #fff;
-    border-color: #dee2e6;
-    color: #212529;
-}
 
-.btn-light:hover {
-   border-color: #c1c9d0;
-   color: $primary;
-}
+body {
+   background-color: #000000;
+} 
 
-.btn-light:hover i {
-   color: $primary;
-}
 
-.btn-light i {
-   color: #9da1a7;
-}
- 
+

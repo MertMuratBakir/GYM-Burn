@@ -1,0 +1,27 @@
+#section-row {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    .section-title {
+        color: #fff;
+    }
+
+    .lead {
+        color: #fff;
+    }
+}
+
+.card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.section-title, .card-title, .lead, .card-text, .footer-text {
+    cursor: default;
+}
