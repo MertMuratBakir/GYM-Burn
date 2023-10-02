@@ -5,17 +5,13 @@
 
     &:hover {
         color: #fff;
+        cursor: pointer;
     }
 
     img {
         width: 50px;
     }
 } 
-
-.navbar-brand:hover {
-    cursor: default;
-    color: #fff;
-}
 
 .navbar {
     width: 100%;
